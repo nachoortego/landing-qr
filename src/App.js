@@ -6,6 +6,23 @@ import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Entrada from './components/Entrada';
 
+export const Line = () => {
+  return (
+    <hr class="mx-16 my-8 sm:mx-auto sm:w-1/2 lg:w-1/3"/>
+  )
+}
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+      });
+  });
+});
+
+
 function App() {
   return (
     <div>
@@ -13,14 +30,14 @@ function App() {
         <Hero/>
       </div>
       <div class="font-poppins text-gray-200 text-center
-                  bg-gradient-to-t from-gray-800 via-gray-800 to-black
+                  bg-gradient-to-b from-black via-gray-900 to-gray-800
                   flex flex-col justify-center">
         <Titulo/>
-        <hr class="mx-16 my-8 sm:mx-auto sm:w-1/2 lg:w-1/3"/>
+        <Line/>
         <Informacion/>
-        <hr class="mx-16 my-8 sm:mx-auto sm:w-1/2 lg:w-1/3"/>
+        <Line/>
         <Entrada/>
-        <hr class="mx-16 my-8 sm:mx-auto sm:w-1/2 lg:w-1/3"/>
+        <Line/>
         <h1 class="text-xl mx-10">Completá este formulario para descargar tu entrada QR</h1>
         <Formulario/>
         <Footer/>
