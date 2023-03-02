@@ -7,7 +7,7 @@ import Entrada from './components/Entrada';
 
 export const Line = () => {
   return (
-    <hr class="mx-16 my-8 sm:mx-auto sm:w-1/2 lg:w-1/3"/>
+    <hr class="mx-16 my-6 sm:mx-auto sm:w-1/2 lg:w-1/3"/>
   )
 }
 

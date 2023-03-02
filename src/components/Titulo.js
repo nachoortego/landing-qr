@@ -29,7 +29,7 @@ export const Titulo = () => {
 
   return (
     <div class="flex flex-col items-center"id="titulo">
-        <h1 className="text-emerald-400 text-8xl sm:text-9xl font-bold font-akira uppercase relative inline-block">
+        <h1 className="text-emerald-400 text-8xl sm:text-9xl font-bold font-akira uppercase relative inline-block p-px mt-4">
           <span id="before-te1" className="absolute top-0 left-0.5 w-full h-full bg-transparent" style={{ textShadow: "-2px 0 #FFFF", clipPath: "rect(24px, 550px, 90px, 0)" }} aria-hidden="true">bios</span> {/* glitch::before */}
           bios
           <span id="after-te1" className="absolute top-0 -left-0.5 w-full h-full bg-transparent" style={{ textShadow: "-2px 0 spin(#FFFFF, 180)", clipPath: "rect(85px, 550px, 140px, 0)" }} aria-hidden="true">bios</span> {/* glitch::after */}

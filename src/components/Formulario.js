@@ -23,9 +23,9 @@ export const Date = ({placeholder,icon}) => {
 
 export const Dropdown = () => {
   return (
-    <div class="focus-within:animate-pulse focus-within:border-4 flex justify-center my-5 mx-10 bg-black/20 p-5 gap-3 hover:bg-black/30 transition-all border-2 border-emerald-600 sm:w-2/3 lg:w-1/2">
+    <div class="focus-within:animate-pulse focus-within:border-4 flex justify-center my-5 mx-10 bg-black/20 p-5 gap-3 focus-whithin:bg-black/30 transition-all border-2 border-emerald-600 sm:w-2/3 lg:w-1/2">
       <span class="material-symbols-rounded text-3xl">transgender</span>
-      <select id="large" class="block w-full outline-none text-emerald-400 bg-transparent text-xl focus:bg-emerald-400 focus:text-black cursor-pointer">
+      <select id="large" class="block w-full outline-none text-emerald-400 bg-transparent text-xl focus:bg-black focus:text-emerald-400 cursor-pointer">
         <option selected>Genero</option>
         <option value="Fem">Femenino</option>
         <option value="Mas">Masculino</option>
