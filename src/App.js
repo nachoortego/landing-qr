@@ -23,7 +23,7 @@ function App() {
         <Line/>
         <Entrada/>
         <Line/>
-        <h1 class="text-xl mx-10">Completá este formulario para descargar tu entrada QR</h1>
+        <h1 class="text-xl mx-10 text-white">Completá este formulario para descargar tu entrada QR</h1>
         <Formulario/>
         <Footer/>
       </div>
