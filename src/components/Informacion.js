@@ -15,9 +15,9 @@ export const Informacion = ({icon,info}) => {
   return (
     <div class="flex justify-center my-10">
       <div class="sm:w-2/3 lg:w-1/2 xl:w-1/3">
-        <Item icon={'event'} info={'1 de enero'}/>
+        <Item icon={'event'} info={'Sabado 11/3'}/>
         <Item icon={'schedule'} info={'23:00 hs'}/>
-        <Item icon={'distance'} info={'Lotus night club. Alto Rosario Shopping, Rosario.'}/>
+        <Item icon={'distance'} info={'Vorterix'}/>
       </div>
     </div>
   )

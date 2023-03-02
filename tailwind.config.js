@@ -8,15 +8,21 @@ module.exports = {
       fontFamily: {
       ubuntu: ['ubuntu-mono', 'Ubuntu', 'sans-serif'],
       poppins: ['Poppins', 'sans-serif'],
+      akira: ['Akira Expanded', 'sans-serif'],
       },
       animation: {
-        'ltr-linear-infinite': 'move-bg 10s linear infinite',
+        'ltr-vertical-infinite': 'move-bg-ver 15s linear infinite',
+        'glitch': 'glitch-text 3s linear infinite',
       },
       // Define keyframes
       keyframes: {
-        'move-bg': {
+        'move-bg-ver': {
           '0%':   { 'background-position': '0 0' },
           '100%': { 'background-position': '0 100%'}
+        },
+        'glitch-text': {
+          '0%':   { 'translateY': '0 0' },
+          '100%': { 'background-position': '100% 0'}
         }
       }
     },

@@ -3,7 +3,6 @@ import Titulo from './components/Titulo.js'
 import Informacion from './components/Informacion';
 import Formulario from './components/Formulario';
 import Footer from './components/Footer';
-import Hero from './components/Hero';
 import Entrada from './components/Entrada';
 
 export const Line = () => {
@@ -14,13 +13,10 @@ export const Line = () => {
 
 function App() {
   return (
-    <div>
-      <div class="block md:hidden">
-        <Hero/>
-      </div>
-      <div class="font-poppins text-gray-200 text-center
-                  bg-gradient-to-b from-black via-gray-900 to-gray-800
-                  flex flex-col justify-center">
+    <div class="bg-[url(https://cdn.discordapp.com/attachments/699337460815102082/1080646801062907914/background-bios.jpg)]
+                sm:bg-cover bg-repeat-y animate-ltr-vertical-infinite">
+      <div class="font-mono text-emerald-400 text-center
+                  flex flex-col justify-center backdrop-brightness-[0.3]">
         <Titulo/>
         <Line/>
         <Informacion/>
