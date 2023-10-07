@@ -7,6 +7,11 @@ export const Footer = () => {
         Cada invitado deberá registrarse al evento utilizando el link e ingresando sus datos personales.
         En el ingreso se solicitará un QR por persona junto a su DNI.  
         Los tickets no serán válidos fuera del rango horario habilitado para el producto adquirido.
+        <br/>
+        <br/>
+        Every guest will have to register using theri oun personal info.
+        QR Codes will be scanneed at the event front desk.
+        Tickets will not be valid outside the time range enabled for the purchased product.
       </div>
     </div>
   )
